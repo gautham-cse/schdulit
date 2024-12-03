@@ -1,0 +1,46 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.navbar {
+    user-select: none;
+}
+.drawer-side {
+    user-select: none;
+}
+.app-menu--icon {
+    display: none;
+}
+.app-btn--drawer-side {
+    margin-top: 8px;
+}
+.app-footer {
+    bottom: 0;
+    position: fixed;
+    font-size: smaller;
+}
+.app-footer--title {
+    margin-left: 24px;
+    margin-bottom: 14px;
+}
+.btn-neutral {
+    margin-left: 10px; border: none;
+    background-color: transparent;
+}
+.btn-neutral:hover {
+    background-color: transparent;
+}
+.btn-ghost:focus, .btn-ghost:hover {
+    background-color: transparent;
+}
+@media only screen and (max-width: 650px) {   
+    .app-menu--icon {
+        display: block;
+    }
+    .app-btn--navbar {
+        display: none;
+    }
+    .drawer-side {
+        margin-right: -10px;
+    }
+}

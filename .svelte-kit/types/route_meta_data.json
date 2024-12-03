@@ -1,3 +1,5 @@
 {
-	"/": []
+	"/": [],
+	"/layouts/auth/login": [],
+	"/layouts/auth/register": []
 }

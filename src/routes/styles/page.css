@@ -1,0 +1,10 @@
+body {
+    padding: 0; margin: 0; 
+    background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+.app-context {
+    height: 99vh;
+}
